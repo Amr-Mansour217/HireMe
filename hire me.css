@@ -1,0 +1,143 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    background-color: #808d7c;
+    overflow: hidden;
+}
+p, h1, span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.nav-bar {
+    height: 100vh;
+    background-color: #5f6f65;
+    width: 210px;
+    border-radius: 0 12px 12px 0;
+}
+ul {
+    display: flex;
+    gap: 37px;
+    flex-direction: column;
+    position: relative;
+    top: 35%;
+    padding-left: 30px;
+}
+i, ul p {
+    color: #ffffffc0;
+}
+.fa-xmark {
+    position: absolute;
+    top: -245px;
+    cursor: pointer;
+    font-size: 25px;
+}
+input {
+    position: absolute;
+    top: -180px;
+    left: 22px;
+    width: 170px;
+    height: 40px;
+    background-color: #c9dabf;
+    border: 0;
+    border-radius: 60px;
+    padding-left: 20%;
+}
+input:focus {
+    outline: 0;
+}
+.fa-magnifying-glass {
+    position: absolute;
+    top: -169px;
+    left: 38px;
+    color: #00000052;
+}
+ul li {
+    display: flex;
+    list-style: none;
+    
+}
+ul a {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: white;
+}
+ul a i {
+    font-size: 20px;
+}
+ul a p {
+    display: inline-block;
+    font-size: 20px;
+}
+.ul2 {
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    top: 530px;
+    left: -12px;
+}
+.ul2 li {
+    display: flex;
+    margin: 0;
+}
+.ul2 a i {
+    display: flex;
+    font-size: 18px;
+}
+.img {
+    position: absolute;
+    top: 80px;
+    right: 150px;
+}
+.img img {
+    width: 400px;
+    height: 400px;
+}
+.title {
+    position: absolute;
+    top: 22%;
+    left: 22%;
+}
+.title .p3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #201f1f;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.title h1 {
+    font-size: 70px;
+    font-weight: 600;
+}
+.title p, .title span {
+    font-size: 17.5px;
+    letter-spacing: 2px;
+}
+.title .p1 {
+    display: inline-block;
+    margin-top: 20px;
+}
+.title span {
+    color: #5f5f5f;
+}
+button {
+    position: absolute;
+    left: -5px;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #5f5f5f, #9ca986);
+    width: 220px;
+    height: 66px;
+    border: 0;
+    border-radius: 16px;
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+}
